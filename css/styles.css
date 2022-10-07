@@ -1,0 +1,219 @@
+:root {
+  --main-accent-color: #2196f3;
+  --header-color: #212121;
+  --text-color: #757575;
+  --white-accent-color: #ffffff;
+  --dark-bg-color: #2f303a;
+  --white-bg-color: #ffffff;
+  --grey-bg-color: #f5f4fa;
+  --active-accent-color: #188ce8;
+  --main-black-color: #000000;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  color: var(--text-color);
+  background-color: var(--white-bg-color);
+  letter-spacing: 0.01em;
+}
+.link-normalize {
+  text-decoration: none;
+}
+.list-normalize {
+  list-style-type: none;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+.nav-link.current-page {
+  color: var(--active-accent-color);
+}
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--main-black-color);
+}
+.logo-accent {
+  color: var(--main-accent-color);
+}
+.nav {
+}
+.nav-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--header-color);
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--main-accent-color);
+}
+.contact {
+}
+.contact-link {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+}
+.contact-link:hover,
+.contact-link:focus {
+  color: var(--main-accent-color);
+}
+.hero {
+  background: var(--dark-bg-color);
+}
+.hero-header {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--white-accent-color);
+}
+.hero-btn {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.86;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--white-accent-color);
+  background-color: var(--main-accent-color);
+  cursor: pointer;
+}
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: var(--active-accent-color);
+}
+.features {
+  background: var(--white-bg-color);
+}
+.features-title {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--header-color);
+}
+.features-text {
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+.our-products {
+  background: var(--white-bg-color);
+}
+.secondary-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--header-color);
+}
+.our-products-list {
+}
+.our-team {
+  background-color: var(--grey-bg-color);
+}
+.our-team-list {
+}
+.our-team-item {
+  background-color: var(--white-bg-color);
+}
+.our-team-text {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.our-team-title {
+  font-weight: 500;
+  color: var(--header-color);
+}
+.footer {
+  background-color: var(--dark-bg-color);
+}
+.footer-logo {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--white-accent-color);
+}
+.footer-logo-accent {
+  color: var(--active-accent-color);
+}
+.footer-contacts {
+}
+.footer-contact {
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  font-style: normal;
+  color: var(--text-color);
+}
+.footer-contact:hover,
+.footer-contact:focus {
+  color: var(--active-accent-color);
+}
+.footer-address {
+  color: var(--white-accent-color);
+}
+.portfolio {
+  background-color: var(--white-bg-color);
+}
+.portfolio-buttons {
+}
+.portfolio-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--header-color);
+  background-color: var(--grey-bg-color);
+  cursor: pointer;
+}
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  background-color: var(--active-accent-color);
+  color: var(--white-accent-color);
+}
+.portfolio-items {
+}
+.portfolio-item {
+}
+.portfolio-item-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--header-color);
+}
+.portfolio-item-text {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
